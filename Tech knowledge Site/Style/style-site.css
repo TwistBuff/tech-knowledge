@@ -1,0 +1,208 @@
+#title-card{
+    background-color: #232323;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flex display to extend the background color */
+    justify-content: space-between; /* Align the content to the ends */
+    align-items: center; /* Center the content vertically */
+    border-radius: 15px 15px 0px 0px;
+}
+
+#div-title {
+    display: inline-bl;
+    margin-left: 20px; /* Add some spacing on the left */
+}
+
+#nav-bar {
+    background-color: #8E929C;
+    border-radius: 0px 0px 15px 15px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#footer-card {
+    
+    background-color: #8E929C;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flex display to extend the background color */
+    justify-content: space-between; /* Align the content to the ends */
+    align-items: center; /* Center the content vertically */
+    border-radius: 15px 15px 15px 15px;
+}
+
+
+
+/* #diagram-div {
+    text-transform:capitalize;
+    line-height:normal;
+    text-align:right;
+}
+
+#list-components {
+    width:65%;
+    margin-left:10%;
+    text-align: left;
+    
+}
+#diagram-pic-container {
+    width:20%;
+    margin-right:5%;
+    text-align:right;
+    
+} */
+
+#diagram-pic {
+    height:10vw;
+    width:19.15vw;
+}
+
+#explanation {
+    font-weight: lighter;
+}
+
+#title-section {
+    font-weight: lighter;
+}
+
+#explainer {
+    font-weight: lighter;
+}
+
+#github-link, #twitter-link, #button-to-top{
+    text-decoration: none;
+    margin-left: auto;  
+    color: #232323;
+    font-family: 'Inria Sans', sans-serif;
+
+}
+
+#github-link:hover , #twitter-link:hover{
+    color: blueviolet;
+    transition: 0.2s;  
+}
+
+.nav-links {
+    box-shadow: inset 0 0 0 0 #232323;
+    color: #232323;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: 'Inria Sans', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links:hover {
+    box-shadow: inset 100px 0 0 0 #232323;
+    color: aliceblue;
+}
+
+
+.source-diagram {
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+}
+
+.source-diagram:hover {
+    color: whitesmoke;
+    transition: 0.2s;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+  
+.column {
+float: left;
+width: 45%;
+padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black;
+} 
+
+h1 {
+    font-family: 'Inria Sans', sans-serif;
+    color: aliceblue;
+}
+
+main {
+    background-color: #b6b3b3;
+    border-radius: 15px 15px 15px 15px;
+
+}
+
+p {
+    display: inline-bl;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: bold;
+
+}
+
+h2 {
+    display: inline-bl;
+    margin-left: 20px;
+    margin-top: 5px;
+    padding-top: 10px;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    max-width: 100%;
+    border-radius: 15px 15px 15px 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    font-family: 'Inria Sans', sans-serif;
+}
+
+summary {
+    display: inline-bl;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: bold;
+
+}
+
+table, tr, th, td, caption {
+    
+    font-family: 'Inria Sans', sans-serif;
+    border-collapse: collapse;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+td {
+    width: 50%;
+}
+
